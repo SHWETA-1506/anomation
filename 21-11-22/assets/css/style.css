@@ -1,0 +1,60 @@
+body {
+    margin:0 ;
+    background-color: darkred;
+}
+nav 
+{
+    background-color:rgb(119, 78, 40);
+
+}
+.flex-container
+{
+ display:flex;
+}
+ .flex-item1
+ {
+    flex:20%;
+    background-color:blue;
+ }
+.flex-item2
+{
+    flex:80%;
+    background-color: aqua;
+
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display:inline;
+    margin-left: 40px;
+    margin:40px;
+}
+a{
+    color: cadetblue;
+    font-size: 50px;
+    font-weight: 500px;
+    transition: 2s all ;
+    text-decoration: none;
+}
+a:hover{
+color:blueviolet;
+background-color: cornflowerblue;
+}
+.slider{
+    height: 600px;
+    background-color: rgba(20, 220, 203, 0.603);
+    animation-name: navbar;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes navbar {
+from{background-color: rgba(54, 5, 50, 0.603); 
+
+}
+to{
+    background-color: rgb(5, 31, 66);
+}
+}
